@@ -1,30 +1,25 @@
 {
-  "name": "frontend",
+  "name": "todo-chatbot-frontend",
   "version": "1.0.0",
+  "description": "Frontend for the Todo AI Chatbot using OpenAI ChatKit",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "type-check": "tsc --noEmit"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "@tailwindcss/postcss": "^4.1.18",
-    "@types/node": "^25.2.0",
-    "@types/react": "^19.2.11",
-    "autoprefixer": "^10.4.24",
-    "better-auth": "^1.4.18",
-    "lucide-react": "^0.563.0",
-    "next": "^16.1.6",
-    "postcss": "^8.5.6",
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4",
-    "tailwindcss": "^4.1.18",
-    "typescript": "^5.9.3"
-  }
+    "@openai/chatkit": "^1.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "vite": "^4.5.0",
+    "@vitejs/plugin-react": "^4.1.0",
+    "eslint": "^8.52.0"
+  },
+  "keywords": ["chatbot", "todo", "ai", "openai"],
+  "author": "",
+  "license": "ISC"
 }
